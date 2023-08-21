@@ -1,0 +1,34 @@
+volle@volleyball MINGW64 ~
+$ cd /c/Users/volle/OneDrive/デスクトップ
+
+volle@volleyball MINGW64 ~/OneDrive/デスクトップ
+$ mkdir git_challenge
+
+volle@volleyball MINGW64 ~/OneDrive/デスクトップ
+$ cd git_challenge
+
+volle@volleyball MINGW64 ~/OneDrive/デスクトップ/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/volle/OneDrive/デスクトップ/git_challenge/.git/
+
+volle@volleyball MINGW64 ~/OneDrive/デスクトップ/git_challenge (master)
+$ git add hello_world.txt
+
+volle@volleyball MINGW64 ~/OneDrive/デスクトップ/git_challenge (master)
+$ git commit -m "hello_world.txtを追加"
+[master (root-commit) e668c48] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+volle@volleyball MINGW64 ~/OneDrive/デスクトップ/git_challenge (master)
+$ git add hello_world.txt
+
+volle@volleyball MINGW64 ~/OneDrive/デスクトップ/git_challenge (master)
+$ git commit -m "日本語訳を追記"
+[master 6655997] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+volle@volleyball MINGW64 ~/OneDrive/デスクトップ/git_challenge (master)
+$ git log --oneline
+6655997 (HEAD -> master) 日本語訳を追記
+e668c48 hello_world.txtを追加
